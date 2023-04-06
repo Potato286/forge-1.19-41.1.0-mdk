@@ -1,0 +1,15 @@
+{
+  "type": "test:sink",
+  "ingredients": [
+    {
+      "item": "minecraft:stick"
+    }
+  ],
+  "fluid": {
+    "FluidName": "test:soap_water_fluid",
+    "Amount": 250
+  },
+  "output": {
+    "item": "minecraft:diamond"
+  }
+}

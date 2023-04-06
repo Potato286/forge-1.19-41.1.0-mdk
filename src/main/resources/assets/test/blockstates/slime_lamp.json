@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "test:block/slime_lamp_on" },
+    "lit=false": { "model": "test:block/slime_lamp_off" }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#Y#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:slime_ball"
+    },
+    "Y": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "test:slime_lamp"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "test:rhodium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "test:rhodium"
+  }
+}

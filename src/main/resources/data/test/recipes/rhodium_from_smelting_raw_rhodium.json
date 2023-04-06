@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 20,
+  "experience": 1000,
+  "ingredient": {
+    "item": "test:raw_rhodium"
+  },
+  "result": "test:rhodium"
+}

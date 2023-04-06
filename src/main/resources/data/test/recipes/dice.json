@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X#X",
+    "#Y#",
+    "X#X"
+  ],
+  "key": {
+    "#": {
+      "item": "test:rhodium"
+    },
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "Y": {
+      "item": "minecraft:experience_bottle"
+    }
+  },
+  "result": {
+    "item": "test:dice"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "item.test.rhodium": "Rhodium",
+  "item.test.raw_rhodium": "Raw Rhodium",
+
+  "item.test.dice": "Dice",
+
+  "item.test.blueberry": "Blueberry",
+  "item.test.blueberry_seeds": "Blueberry Seeds",
+
+  "item.test.soap_water_bucket": "Soap Water Bucket",
+
+  "item.test.scythe": "Scythe",
+
+  "block.test.rhodium_block": "Block of Rhodium",
+  "block.test.rhodium_ore": "Rhodium Ore",
+  "block.test.deepslate_rhodium_ore": "Deepslate Rhodium Ore",
+  "block.test.endstone_rhodium_ore": "Endstone Rhodium Ore",
+  "block.test.netherrack_rhodium_ore": "Netherrack Rhodium Ore",
+  "block.test.slime_lamp": "Slime Lamp",
+
+  "block.test.blueberry_crop": "Blueberry Crop",
+
+  "block.test.floaty_block": "Floaty Block",
+
+  "block.test.sink": "Sink",
+
+  "itemGroup.testingtab": "Testing",
+  "entity.minecraft.villager.test.float_master": "Float Master",
+
+  "key.category.test.tutorial": "Test",
+  "key.test.drink_water": "Drink Water",
+  "message.test.no_water": "No Water",
+  "message.test.drink_water": "Water Drunk",
+
+  "test.tooltip.liquid.amount.with.capacity": "%s / %s mb",
+  "test.tooltip.liquid.amount": "%s mb"
+
+}

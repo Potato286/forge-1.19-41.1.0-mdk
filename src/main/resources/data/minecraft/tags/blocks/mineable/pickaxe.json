@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "test:rhodium_block",
+    "test:rhodium_ore",
+    "test:deepslate_rhodium_ore",
+    "test:endstone_rhodium_ore",
+    "test:netherrack_rhodium_ore",
+    "test:floaty_block",
+    "test:slime_lamp"
+  ]
+}

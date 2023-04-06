@@ -1,0 +1,15 @@
+{
+  "type": "test:sink",
+  "ingredients": [
+    {
+      "item": "test:raw_rhodium"
+    }
+  ],
+  "fluid": {
+    "FluidName": "minecraft:water",
+    "Amount": 500
+  },
+  "output": {
+    "item": "test:rhodium"
+  }
+}
