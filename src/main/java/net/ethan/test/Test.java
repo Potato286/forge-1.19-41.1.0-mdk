@@ -9,6 +9,7 @@ import net.ethan.test.entity.client.TlalocRenderer;
 import net.ethan.test.fluid.ModFluidTypes;
 import net.ethan.test.fluid.ModFluids;
 import net.ethan.test.item.ModItems;
+import net.ethan.test.loot.ModLootModifiers;
 import net.ethan.test.networking.ModMessages;
 import net.ethan.test.painting.ModPaintings;
 import net.ethan.test.recipe.ModRecipes;
@@ -69,6 +70,8 @@ public class Test
         GeckoLib.initialize();
 
         ModEnchantments.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

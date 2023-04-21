@@ -1,8 +1,12 @@
 package net.ethan.test.entity.custom;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
+import net.minecraft.server.level.ServerBossEvent;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.BossEvent;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
@@ -33,6 +37,18 @@ public class TlalocEntity extends Monster implements IAnimatable {
     private AnimationFactory factory = GeckoLibUtil.createFactory(this);
     public TlalocEntity(EntityType<? extends Monster> pEntityType, Level pLevel) {
         super(pEntityType, pLevel);
+    }
+    private final ServerBossEvent bossInfo = new ServerBossEvent(Component.literal("Tlaloc"), BossEvent.BossBarColor.BLUE, BossEvent.BossBarOverlay.PROGRESS);
+    @Override
+    public void startSeenByPlayer(ServerPlayer player) {
+        super.startSeenByPlayer(player);
+        this.bossInfo.addPlayer(player);
+    }
+
+    @Override
+    public void stopSeenByPlayer(ServerPlayer player) {
+        super.stopSeenByPlayer(player);
+        this.bossInfo.removePlayer(player);
     }
     public static AttributeSupplier setAttributes() {
         return Monster.createMobAttributes()
@@ -104,5 +120,11 @@ public class TlalocEntity extends Monster implements IAnimatable {
 
     protected float getSoundVolume() {
         return 1.0F;
+    }
+
+    @Override
+    public void tick() {
+        super.tick();
+        this.bossInfo.setProgress(this.getHealth() / this.getMaxHealth());
     }
 }
