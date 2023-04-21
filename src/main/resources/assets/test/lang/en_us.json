@@ -10,6 +10,9 @@
   "item.test.soap_water_bucket": "Soap Water Bucket",
 
   "item.test.scythe": "Scythe",
+  "item.test.pickaxe": "Pickaxe",
+
+  "item.test.tlaloc_spawn_egg": "Tlaloc Spawn Egg",
 
   "block.test.rhodium_block": "Block of Rhodium",
   "block.test.rhodium_ore": "Rhodium Ore",
@@ -23,6 +26,10 @@
   "block.test.floaty_block": "Floaty Block",
 
   "block.test.sink": "Sink",
+  "block.test.computer": "Computer",
+
+  "block.test.lily": "Lily",
+  "block.test.potted_lily": "Potted Lily",
 
   "itemGroup.testingtab": "Testing",
   "entity.minecraft.villager.test.float_master": "Float Master",
@@ -33,6 +40,20 @@
   "message.test.drink_water": "Water Drunk",
 
   "test.tooltip.liquid.amount.with.capacity": "%s / %s mb",
-  "test.tooltip.liquid.amount": "%s mb"
+  "test.tooltip.liquid.amount": "%s mb",
 
+  "enchantment.test.wingardium_leviosa": "Wingardium Leviosa",
+  "enchantment.test.wingardium_leviosa_v2": "Wingardium Leviosa v2",
+
+  "fluid_type.test.soap_water_fluid": "Soap Water",
+
+  "block.test.wisteria_log": "Wisteria Log",
+  "block.test.wisteria_planks": "Wisteria Planks",
+  "block.test.wisteria_wood": "Wisteria Wood",
+  "block.test.stripped_wisteria_log": "Stripped Wisteria Log",
+  "block.test.stripped_wisteria_wood": "Stripped Wisteria Wood",
+  "block.test.wisteria_leaves": "Wisteria Leaves",
+  "block.test.wisteria_sapling": "Wisteria Sapling",
+
+  "entity.test.tlaloc": "Tlaloc"
 }

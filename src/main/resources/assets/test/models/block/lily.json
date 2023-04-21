@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/cross",
+	"textures": {
+		"cross": "test:block/lily"
+	},
+	"render_type": "cutout"
+}

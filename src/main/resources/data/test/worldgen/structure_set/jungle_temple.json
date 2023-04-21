@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "test:jungle_temple",
+      "weight": 1
+    }
+  ],
+  "placement": {
+
+    "salt": 1642136474,
+
+
+    "spacing": 40,
+
+    "separation": 12,
+
+    "type": "minecraft:random_spread"
+  }
+}
